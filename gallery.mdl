@@ -1,0 +1,76 @@
+//BODY
+push
+move 250 150 0
+rotate y -30
+sphere 0 0 0 50
+//LEFTLEG
+push
+move -20 -30 30
+sphere 0 0 0 20
+pop
+//RIGHTLEG
+push
+move 20 -30 30
+sphere 0 0 0 20
+pop
+//MOREBODY
+push
+move 0 30 0
+sphere 0 0 0 40
+push
+move 0 20 0
+sphere 0 0 0 30
+push
+move 0 10 0
+sphere 0 0 0 20
+//EYES
+push
+move 10 0 20
+sphere 0 0 0 10
+pop
+push
+move -10 0 20
+sphere 0 0 0 10
+pop
+//MOUTH
+push
+move 0 -20 20
+sphere 0 0 0 20
+pop
+//HAIRS1
+push
+move 0 60 0
+sphere 0 0 0 20
+pop
+//HAIRS2
+push
+move -10 30 0
+sphere 0 0 0 20
+pop
+//HAIRS3
+push
+move 10 30 0
+sphere 0 0 0 20
+pop
+
+
+//HEAD
+//push
+//move 0 175 0
+//rotate y 90
+//sphere 0 0 0 50
+//pop
+//LEFT ARM
+//push
+//move -100 125 0
+//rotate x -45
+//box -40 0 40 40 100 80
+//LEFT LOWER ARM
+//push
+//move -20 -100 0
+//box -10 0 10 20 125 20
+//pop
+//pop
+//RIGHT ARM
+display
+save robot.png
